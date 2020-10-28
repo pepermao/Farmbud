@@ -1,0 +1,181 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: rgb(46,120,67);
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: 	#2E8B57;
+	text-decoration: underline;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+
+
+footer {
+	background: url("rodapé.jpg");
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/*Vegetais*/
+
+h3 {
+	padding: 0 75px;
+	font-size: 30px;
+}
+
+.indice {
+	background: linear-gradient(rgb(46,120,67), rgb(152,251,152));
+}
+.conteudo-indice {
+	background: #FFFFFF;
+	width: 350px;
+	height: 650px;
+	border: 2px solid #000000;
+	margin-left: 20px;
+}
+
+.lista-indice {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: 	#2E8B57;
+	text-decoration: underline;
+}
+
+.principal-fatores {
+	background: linear-gradient(rgb(152,251,152), rgb(254,254,254));
+	padding: 3em 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.titulo-fatores {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.vegetais {
+	padding: 3em 0;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.imagem-vegetais {
+	float: right;
+	width: 250px;
+	height: 250px;
+	opacity: 1;
+	transition: 400ms;
+	padding: 10px 0;
+	margin: 80px 10px 0;
+}
+
+.imagem-vegetais:hover {
+	opacity: 0.3;
+}
+
+table {
+	margin: 20px 0 50px;
+	border-collapse: collapse;
+}
+thead {
+	background: #555555;
+	color: #FFFFFF;
+	font-weight: bold; 
+}
+
+th {
+	width: 150px;
+	height: 25px;
+	border: 1px solid #000000;
+	padding: 8px 15px
+}
+
+
+td {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+ul p {
+	text-align: center;
+	color: rgb(0, 50, 0);
+	font-weight: bold;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
