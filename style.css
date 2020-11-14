@@ -84,9 +84,21 @@ nav a:hover {
 }
 
 .informaçao {
-	padding-top: 100px;
+	padding-top: 10px;
+	padding-bottom: 3em;
+	background: #FEFEFE;
+	width: 960px;
+	margin: 0 auto;
+	font-size: 18px;
 }
 
+.informaçao p {
+	margin: 0 0 1em;
+}
+
+.informaçao strong {
+	font-weight: bold;
+}
 
 footer {
 	background: url("rodapé.jpg");
@@ -245,6 +257,7 @@ ul p {
 }
 
 .titulo-manual {
+	padding-top: 75px;
 	text-align: center;
 	font-size: 1.5em;
 	margin: 0 0 1em;
