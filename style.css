@@ -85,7 +85,7 @@ nav a:hover { /*interação ao passar o mouse*/
 
 .informaçao {
 	padding-top: 10px; /*preechimento no topo de 10px*/
-	padding-bottom: 2em; /*preechimento inferior 2x do padrão*/
+	padding-bottom: 2em; /*preechimento inferior 3x do padrão*/
 	background: #FEFEFE; /*cor do fundo*/
 	width: 960px; /*tamanho de 960px*/
 	margin: 0 auto; /*margem*/
@@ -101,10 +101,10 @@ nav a:hover { /*interação ao passar o mouse*/
 }
 
 .animaçao-home {
-	width: 320px;
-	height: 240px;
-	margin-bottom: 600px;
-	margin-left: 360px;
+	width: 320px; /*largura do video*/
+	height: 240px; /*altura do video*/
+	margin-bottom: 600px; /*margem*/
+	margin-left: 360px; /*margem*/
 }
 
 footer {
@@ -278,10 +278,10 @@ ul p {
 }
 
 .animaçao-manual {
-	width: 320px;
-	height: 240px;
-	margin-bottom:500px;
-	margin-left: 150px;
+	width: 50%; /*largura do video*/
+	height: 50%; /*altura do video*/
+	margin-bottom:10px; /*margem*/
+	margin-left: 125px; /*margem*/
 }
 
 .navegaçao, .umidade, .luminosidade, .temperatura, .ph {
