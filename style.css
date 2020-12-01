@@ -103,8 +103,8 @@ nav a:hover { /*interação ao passar o mouse*/
 .animaçao-home {
 	width: 320px;
 	height: 240px;
-	margin-bottom: 50px;
-	margin-left: 400px;
+	margin-bottom: 200px;
+	margin-left: 425px;
 }
 
 footer {
@@ -280,8 +280,8 @@ ul p {
 .animaçao-manual {
 	width: 320px;
 	height: 240px;
-	margin-bottom:50px;
-	margin-left: 200px;
+	margin-bottom:200px;
+	margin-left: 225px;
 }
 
 .navegaçao, .umidade, .luminosidade, .temperatura, .ph {
