@@ -1,305 +1,318 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif; /*definindo fonte*/
 }
 
 header {
-	background: rgb(46,120,67);
-	padding: 20px 0;
+	background: rgb(46,120,67); /*definindo cor de fundo do cabeçalho*/
+	padding: 20px 0;  /*Preenchimento de 20px na direita e no topo*/
 }
 
 
 .caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+	position: relative; /*definindo posição relativa dentro da caixa*/
+	width: 940px; /*definindo tamanho da caixa*/
+	margin: 0 auto; /*margem da caixa*/
 }
 
 .logo {
-	width: 25%;
+	width: 25%; /*tamanho da logo*/
 }
 
 nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+	position: absolute; /*definindo posição*/
+	top: 110px; /*espaçamento de 110px do topo*/
+	right: 0; /*espaçamento de 0px da direita*/
 }
 
 nav li {
 	display: inline;
-	margin: 0 0 0 15px;
+	margin: 0 0 0 15px; /*espaçamento de 15px do topo*/
 }
 
 nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
+	text-transform: uppercase; /*transforma o texto em maiúsculo*/
+	color: #000000; /*definindo cor do texto*/
+	font-weight: bold; /*texto em negrito*/
+	font-size: 22px; /*definindo tamnho da fonte*/
+	text-decoration: none; /*retirando qualquer tipo de decoração no texto, exemplo sublinhado*/
 }
 
-nav a:hover {
-	color: 	#2E8B57;
-	text-decoration: underline;
+nav a:hover { /*interação ao passar o mouse*/
+	color: 	#2E8B57; /*cor do texto*/
+	text-decoration: underline; /*adicionando sublinhado*/
 }
 
 .titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
+	text-align: center; /*alinhando o texto no centro*/
+	font-size: 2em; /*fonte 2x do padrão = 16px*/
+	margin: 0 0 1em; /*margem padrão do topo*/
+	clear: left; /*limpar qualquer coisa que há do lado esquerdo*/
 }
 
 .imagem-home {
-	padding-left: 20px;
-	float: right;
-	width: 40%;
-	opacity: 1;
-	transition: 400ms;
+	padding-left: 20px; /*preechimento de 20px na esquerda*/
+	float: right; /*"flutuar" na direita"*/
+	width: 40%; /*tamanho de 40% do original*/
+	opacity: 1; /*opacidade*/
+	transition: 400ms; /*transição de 400 milisegundos*/
 }
 
-.imagem-home:hover {
-	width: 40%;
-	opacity: 0.8;
+.imagem-home:hover { /*interação ao passar o mouse*/
+	width: 40%; /*tamanho de 40% do original*/
+	opacity: 0.8; /*opacidade*/
 }
 
 
 .principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 960px;
-	margin: 0 auto;
-	font-size: 18px;
+	padding: 3em 0; /*preenchimento de 3x o padrão na direita e no topo*/
+	background: #FEFEFE; /*Cor do fundo*/
+	width: 960px; /*tamanho de 960 px*/
+	margin: 0 auto; /*margem*/
+	font-size: 18px; /*tamanho da fonte*/
 }
 
 .principal p {
-	margin: 0 0 1em;
+	margin: 0 0 1em; /*margem padrão do topo*/
 }
 
 .principal strong {
-	font-weight: bold;
+	font-weight: bold; /*texto em negrito*/
 }
 
 .principal em {
-	font-style: italic;
+	font-style: italic; /*texto em itálico*/ 
 }
 
 .informaçao {
-	padding-top: 10px;
-	padding-bottom: 3em;
-	background: #FEFEFE;
-	width: 960px;
-	margin: 0 auto;
-	font-size: 18px;
+	padding-top: 10px; /*preechimento no topo de 10px*/
+	padding-bottom: 3em; /*preechimento inferior 3x do padrão*/
+	background: #FEFEFE; /*cor do fundo*/
+	width: 960px; /*tamanho de 960px*/
+	margin: 0 auto; /*margem*/
+	font-size: 18px; /*tamanho da fonte*/
 }
 
 .informaçao p {
-	margin: 0 0 1em;
+	margin: 0 0 1em; /*margem*/
 }
 
 .informaçao strong {
-	font-weight: bold;
+	font-weight: bold; /*texto em negrito*/
+}
+
+.animaçao-home {
+	width: 320px;
+	height: 240px;
+	margin-bottom: 600px;
+	margin-left: 360px;
 }
 
 footer {
-	background: url("rodapé.jpg");
-	text-align: center;
-	padding: 40px 0;
+	background: url("rodapé.jpg"); /*vinculando imagem como fundo*/
+	text-align: center; /*alinhando texto no centro*/
+	padding: 40px 0; /*preechimento*/
 }
 
 .logo-rodape {
-	width: 15%;
+	width: 15%; /*tamanho de 15% do original*/
 }
 
 .copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+	color: #FFFFFF; /*cor do texto*/
+	font-size: 13px; /*tamanho da fonte*/
+	margin: 20px 0 0; /*margem*/
 }
 
 /*Vegetais*/
 
 h3 {
-	padding: 0 75px;
-	font-size: 30px;
+	padding: 0 75px; /*preenchimentro*/
+	font-size: 30px; /*tamanho da fonte*/
 }
 
 .indice {
-	padding-top: 20px;
-	background: linear-gradient(rgb(46,120,67), rgb(152,251,152));
+	padding-top: 20px; /*preenchimento no topo*/
+	background: linear-gradient(rgb(46,120,67), rgb(152,251,152)); /*degradê de uma cor a outra no fundo*/
 }
 .conteudo-indice {
-	background: #FFFFFF;
-	width: 350px;
-	height: 650px;
-	border: 2px solid #000000;
-	margin-left: 20px;
+	background: #FFFFFF; /*cor do fundo*/
+	width: 350px; /*largura*/
+	height: 600px; /*altura*/
+	border: 2px solid #000000; /*borda da caixa e sua cor*/
+	margin-left: 20px; /*margem na esquerda*/
 }
 
 .lista-indice {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
+	width: 40%; /*tamanho 40% do original*/
+	vertical-align: top; /*alinhar no topo*/
 }
 
 li a {
-	color: #000000;
-	text-decoration: none;
+	color: #000000; /*cor do texto*/
+	text-decoration: none; /*sem decoração no texto, exemplo sublinhado*/
 }
 
-li a:hover {
-	color: 	#2E8B57;
-	text-decoration: underline;
+li a:hover { /*Interação ao passar o mouse*/
+	color: 	#2E8B57; /*cor do texto*/
+	text-decoration: underline; /*adiciona sublinhado no texto*/
 }
 
 .principal-fatores {
-	background: linear-gradient(rgb(152,251,152), rgb(254,254,254));
-	padding: 3em 0;
-	width: 100%;
-	margin: 0 auto;
+	background: linear-gradient(rgb(152,251,152), rgb(254,254,254)); /*degradê de uma cor a outra no fundo*/
+	padding: 3em 0; /*preenchimento*/
+	width: 100%; /*tamanho*/
+	margin: 0 auto; /*margem*/
 }
 
 .titulo-fatores {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
+	text-align: center; /*alinhar texto no centro*/
+	font-size: 2em; /*tamanho da fonte*/
+	margin: 0 0 1em; /*margem*/
+	clear: left; /*limpar qualquer coisa que há na esquerda*/
 }
 
 .fatores {
-	font-size: 18px;
+	font-size: 18px; /*tamanho da fonte*/
 }
 
 .vegetais {
-	padding: 3em 0;
-	width: 1240px;
-	margin: 0 auto;
+	padding: 3em 0; /*preenchimento*/
+	width: 1240px; /*tamanho*/
+	margin: 0 auto; /*margem*/
 }
 
 .imagem-vegetais {
-	float: right;
-	width: 250px;
-	height: 250px;
-	opacity: 1;
-	transition: 400ms;
-	padding: 10px 0;
-	margin: 80px 10px 0;
+	float: right; /*flutuar na direita*/
+	width: 250px; /*largura*/
+	height: 250px; /*altura*/
+	opacity: 1; /*opacidade*/
+	transition: 400ms; /*transição de 400 milisegundos*/
+	padding: 10px 0; /*preenchimento*/
+	margin: 80px 10px 0; /*margem*/
 }
 
-.imagem-vegetais:hover {
-	opacity: 0.3;
+.imagem-vegetais:hover { /*Interação ao passar o mouse*/
+	opacity: 0.3; /*opacidade*/
 }
 
 table {
-	margin: 20px 0 50px;
+	margin: 20px 0 50px; /*margem*/
 	border-collapse: collapse;
 }
 thead {
-	background: #555555;
-	color: #FFFFFF;
-	font-weight: bold; 
+	background: #555555; /*cor de fundo*/
+	color: #FFFFFF; /*cor do texto*/
+	font-weight: bold; /*texto em negrito*/
 }
 
 th {
-	width: 150px;
-	height: 25px;
-	border: 1px solid #000000;
-	padding: 8px 15px
+	width: 150px; /*largura*/
+	height: 25px; /*altura*/
+	border: 1px solid #000000; /*preenchimento da borda e sua cor*/
+	padding: 8px 15px /*preenchimento*/
 }
 
 
 td {
-	width: 200px;
-	height: 200px;
-	border: 1px solid #000000;
-	padding: 8px 15px;
+	width: 200px; /*largura*/
+	height: 200px; /*altura*/
+	border: 1px solid #000000; /*preenchimento da borda e sua cor*/
+	padding: 8px 15px; /*preenchimento*/
 }
 
 ul p {
-	text-align: center;
-	color: rgb(0, 50, 0);
-	font-weight: bold;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
+	text-align: center; /*alinhar texto no centro*/
+	color: rgb(0, 50, 0); /*cor da fonte*/
+	font-weight: bold; /*texto em negrito*/
+	font-size: 2em; /*tamanho da fonte*/
+	margin: 0 0 1em; /*margem*/
+	clear: left; /*limpar qualquer coisa que há na esquerda*/
 }
 
 /*aba manual*/
 
 .indice-manual {
-	padding-top: 20px;
+	padding-top: 20px; /*preenchimento no topo*/
 }
 
 .conteudo-manual {
-	background: #FFFFFF;
-	padding-left: 20px;
-	width: 350px;
-	height: 400px;
-	border: 2px solid #000000;
-	margin-left: 20px;
-	margin-top: 10px;
+	background: #FFFFFF; /*cor de fundo*/
+	padding-left: 20px; /*preenchimento na esquerda*/
+	width: 350px; /*largura*/
+	height: 400px; /*altura*/
+	border: 2px solid #000000; /*preenchimento da borda e sua cor*/
+	margin-left: 20px; /*margem na esquerda*/
+	margin-top: 10px; /*margem no topo*/
 }
 
 .instruçao {
-	padding: 3em 0;
-	width: 100%;
-	margin: 0 auto;
+	padding: 3em 0; /*preenchimento*/
+	width: 100%; /*tamanho*/
+	margin: 0 auto; /*margem*/
 }
 
 .titulo-indice {
-	padding-left: 110px;
-	font-size: 30px;
+	padding-left: 110px; /*preenchimento na esquerda*/
+	font-size: 30px; /*tamanho da fonte*/
 }
 
 .caixa-manual {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+	position: relative; /*posição relativa*/
+	width: 940px; /*largura de 960 px*/
+	margin: 0 auto; /*margem*/
 }
 
 .titulo-manual {
-	padding-top: 75px;
-	text-align: center;
-	font-size: 1.5em;
-	margin: 0 0 1em;
-	clear: left;
+	padding-top: 75px; /*preenchimento no topo*/
+	text-align: center; /*alinhar texto no centro*/
+	font-size: 1.5em; /*tamanho da fonte 1.5x da original*/
+	margin: 0 0 1em; /*margem*/
+	clear: left; /*limpar qualquer coisa que há na esquerda*/
 }
 
 .subtitulo {
-	text-align: center;
-	font-size: 1.5em;
-	margin: 0 0 1em;
-	clear: left;
+	text-align: center; /*alinhar texto no centro*/
+	font-size: 1.5em; /*tamanho da fonte*/
+	margin: 0 0 1em; /*margem*/
+	clear: left; /*limpar qualquer coisa que há na esquerda*/
+}
+
+.animaçao-manual {
+	width: 320px;
+	height: 240px;
+	margin-bottom:500px;
+	margin-left: 125px;
 }
 
 .navegaçao, .umidade, .luminosidade, .temperatura, .ph {
-	text-align: center;
-	padding-top: 25px;
-	font-size: 1em;
-	margin: 0 0 1em;
-	clear: left;
+	text-align: center; /*alinhar texto no centro*/
+	padding-top: 25px; /*preenchimento no topo*/
+	font-size: 1em; /*tamanho da fonte*/
+	margin: 0 0 1em; /*margem*/
+	clear: left; /*limpar qualquer coisa que há na esquerda*/
 }
 
 .topicos p {
-	font-size: 20px;
+	font-size: 20px; /*tamanho da fonte*/
 }
 
 .topicos a {
-	color: #000000;
+	color: #000000; /*cor da fonte*/
 }
 
-.topicos a:hover {
-	color: 	#2E8B57;	
+.topicos a:hover { /*interação ao passar o mouse*/
+	color: 	#2E8B57; /*cor da fonte*/
 }
 
 .imagem-manual {
-	width: 500px;
-	height: 300px;
-	opacity: 1;
-	transition: 400ms;
-	padding-left: 230px;
-	margin: 0 10px 0;
+	width: 500px; /*largura*/
+	height: 300px; /*altura*/
+	opacity: 1; /*opacidade*/
+	transition: 400ms; /*transição*/
+	padding-left: 230px; /*preemchimento na esquerda*/
+	margin: 0 10px 0; /*margem*/
 }
 
-.imagem-manual:hover {
-	opacity: 0.3;
+.imagem-manual:hover { /*interação ao passar o mouse*/
+	opacity: 0.3; /*opacidade*/
 }
