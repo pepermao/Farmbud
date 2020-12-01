@@ -1,112 +1,222 @@
 <!DOCTYPE html>
+
 <html lang="pt-br"> <! Definir o idioma do site> 
+
 	<head> <! Abrir tag "cabeça" da página, Nessa tag se coloca metadados, onde eles não são exibidos>
+
 		<meta charset="utf-8">
+
 		<meta name="viewport" content="width=device-width"> <! Definir a janela de visualização para que o site tenha uma boa aparência em todos os dispositivos>
+
 		<title>Manual FarmBud</title> <! Título que será mostrado na aba da página>
 
 		<link rel="stylesheet" type="text/css" href="style.css"> <! Ligando a folha de estilo com o html do corpo da página>
+
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> <! Definindo a fonte da página>
+
 	</head> <! Fechando tag "cabeça da página">
 
 	<body> <! Abrir tag "corpo" da página, Nessa tag se coloca todas as informações que você quer que apareça no site>
+
 		<header> <! Abrir tag cabeçalho da página>
+
 			<div class="caixa"> <! Definindo nome da classe>
+
 				<img src="logo.jpeg" class="logo"> <! Inserindo logo do projeto e definindo o nome da classe da imagem>
 				
 				<nav> <! Abrir tag de conjunto de links de navegação>
+
 					<ul> <! Abrir tag de lista ordenada>
+
 						<li><a href="index.html">Home</a></li> <! Criando um texto com link com outra página, ou seja ao clicar no texto você será redirecionado a outra página>
+
 						<li><a href="vegetais.html">Vegetais</a></li> <! Criando um texto com link com outra página, ou seja ao clicar no texto você será redirecionado a outra página>
+
 						<li><a href="manual.html">Manual</a></li> <! Criando um texto com link com outra página, ou seja ao clicar no texto você será redirecionado a outra página>
+
 					</ul> <! Fechando tag>
+
 				</nav> <! Fechando tag>
+
 			</div> <! Fechando tag>
+
 		</header> <! Fechando tag de cabeçalho>
 
 		<main> <! Abrindo tag principal>
+
 			<section class="indice-manual"> <! Abrindo seção de indíce>
+
 				<div class="conteudo-manual"> <! Criando classe do conteudo do indice>
-					<ul class="lista-indice"></ul> <! Nomeando o nome da classe>
+
+					<ul class="lista-indice"></ul> <! Nomeando classe>
+
 						<h3 class="titulo-indice">Índice</h3> <! Criando título do índice>
+
 						<li class = "itens"><a href="#instruçao">Como usar o FarmBud</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#navegaçao">Navegação entre telas</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#ph">Ph do solo</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#temperatura">Temperatura</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#luminosidade">Luminosidade</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#umidade">Umidade do solo</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#calibraçao">Calibração de sensores</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#calibraçao-ph">Calibração sensor de Ph</a></li> <! Criando item do índice referenciando local internamente da pagina>
+
 						<li class = "itens"><a href="#calibraçao-umid">Calibração sensor de Umidade do solo</a></li> <! Criando item do índice referenciando local internamente da pagina>
 
 				</div> <! Fechando tag do conteudo do indice>
 			</section> <! Fechando seção de índice>
+
 			<section class="instruçao"> <! Abrindo seção de instruções>
+
 				<div class="caixa-manual"> <! Criando classe caixa>
+
 					<a name="instruçao"></a>  <! Referenciando o item do índice, ou seja ao clicar no item "Como usar o FarmBud" será direcionado a esta parte da página>
+
 					<div class="titulo-manual"><h2>Como usar o FarmBud ?</h2></div> <! Criando classe e o título principal da seção de instruções>
+
 						<div class="subtitulo"><p>"O FarmBud é um instrumento que foi pensado em seu design e funcionamento da forma mais simples possível para que o usuário não tenha problemas".</p></div> <! Criando classe do Subtítulo e o texto>
+
+						<div class="animaçao-manual">
+							<video controls poster ="poster.png" >
+								<source src="marketing.mp4" type="video/mp4">
+								<source src="marketing.webm" type="video/webm">
+			  					<source src="marketing.ogv" type="video/ogv">
+			  					<object>
+			    					<embed src="marketing.mp4" type="application/x-shockwave-flash" 
+			    					allowfullscreen="false" allowscriptaccess="always">
+			  					</object>
+			  					Formato não suportado
+  							</video>
+						</div>
+
 							<div class="topicos"> <! Criando classe topicos (navegaçao, ph, temperatura, luminoisdade e umidade)>
+
 								<a name="navegaçao"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Navegação entre telas" será direcionado a esta parte da página>
+
 								<div class="navegaçao"><h2>Navegação entre telas</h2></div> <! Criando classe navegaçao e titulo>
+
 									<p>ㅤㅤㅤNo dispositivo haverá 4 (quatro) botões para a navegação entre telas: Seta para esquerda (<), Seta para direita (>), Voltar e Enter. Para navegar entre os fatores, basta clicar nas setas até o fator desejado, ao encontrar a tela do fator desejado aperte o botão "Enter" para visualizar os dados obtidos pelo dispositivo, com o botão apertado abrirá uma caixa com o sensor e ao terminar a visualização basta clicar no botão de "Voltar" para retornar ao menu e a caixa fechará automaticamente. </p> <! texto dentro da classe navegaçao>
+
 									<img src="navegaçao.jpeg" class="imagem-manual"> <! Inserindo imagem da navegação entre telas do dispositivo e definindo o nome da classe da imagem>
+
 								<a name="ph"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Ph do solo" será direcionado a esta parte da página>
+
 								<div class="ph"><h2>Ph do solo</h2></div> <! Criando classe ph e titulo>
+
 									<p>ㅤㅤㅤAo clicar para visualizar o fator de pH do solo abrirá uma caixa do lado inferior esquerdo, no qual terá uma sonda, com a caixa aberta é só inserir a sonda no solo que deseja descobrir o seu nível de pH. Os dados apresentados na tela serão exibidos em uma escala entre 0 e 14, onde entre 0 e 6,9 significa solo com pH ácido, 7 pH do solo neutro, e 7,1 e 14 ph do solo básico. Para valores ideias consultar dentro do site na aba <a href="vegetais.html">Vegetais</a>.</p> <! texto dentro da classe ph e referenciando a palavra "vegetais" com a página externa do site "vegetais>
+
 									<img src="escalaph.jpg" class="imagem-manual"> <! Inserindo imagem da escala de ph e definindo o nome da classe da imagem>
+
 								<a name="temperatura"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Temperatura" será direcionado a esta parte da página>
+
 								<div class="temperatura"><h2>Temperatura</h2></div> <! Criando classe temperatura e titulo>
+
 									<p>ㅤㅤㅤAo clicar para visualizar o fator de temperatura abrirá uma caixa do lado direito do dispositivo, com a caixa aberta é só esperar o obtenção dos dados pelo sensor. Os dados serão apresentados em °C (Graus celsius). Para valores ideias consultar dentro do site na aba <a href="vegetais.html">Vegetais</a>.</p> <! texto dentro da classe temperatura e referenciando a palavra "vegetais" com a página externa do site "vegetais>
+
 								<a name="luminosidade"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Luminosidade" será direcionado a esta parte da página>
+
 								<div class="luminosidade"><h2>Luminosidade</h2></div> <! Criando classe luminosidade e titulo>		
+
 									<p>ㅤㅤㅤAo clicar para visualizar o fator de Luminosidade abrirá uma caixa do lado esquerdo do dispositivo, com a caixa aberta é só esperar o obtenção dos dados pelo sensor. Os dados serão apresentados de uma forma simples e fácil de entender (Sombra, Meia Sombra, Sol parcial e Sol direto) e também na unidade de medida "Lux". Para valores ideias consultar dentro do site na aba <a href="vegetais.html">Vegetais</a>.</p> <! texto dentro da classe luminosidade e referenciando a palavra "vegetais" com a página externa do site "vegetais>
 									<img src="escalalux.png" class="imagem-manual"> <! Inserindo imagem da escala de luminosidade e definindo o nome da classe da imagem>
+
 								<a name="umidade"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Umidade do solo" será direcionado a esta parte da página>
+
 								<div class="umidade"><h2>Umidade do solo</h2></div> <! Criando classe umidade e titulo>
+
 									<p>ㅤㅤㅤAo clicar para visualizar o fator de umidade do solo abrirá uma caixa do lado inferior direto, no qual terá uma sonda, com a caixa aberta é só inserir a sonda no solo que deseja descobrir o seu nível de umidade do solo. Os dados apresentados na tela serão apresentados em um grau de porcentagem (%) e com seu respectivo significado em uma forma mais clara (Solo seco, solo úmido, solo molhado/+ úmido, solo muito molhado. Para valores ideias consultar dentro do site na aba <a href="vegetais.html">Vegetais</a>.</p> <! texto dentro da classe umidade e referenciando a palavra "vegetais" com a página externa do site "vegetais">
+
 									<img src="escalaumid.png" class="imagem-manual"> <! Inserindo imagem da escala de umidade do solo e definindo o nome da classe da imagem>
+
 							</div> <! Fechando classe>
+
 				<a name="calibraçao"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Calibração de sensores" será direcionado a esta parte da página>
+
 				<div class="titulo-manual"><h2>Calibração de sensores</h2></div> <! Criando classe e titulo da parte de calibração>
+
 					<div class="subtitulo"><p>Os sensores são enviados devidamente calibrados, porém com o uso do equipamento alguns sensores podem acabar precisando ser calibrados novamente para manter sua precisão, são eles:</p></div> <! Criando classe do Subtítulo e o texto>
+
 						<div class="topicos"> <! Criando classe topicos (calibração sensor de ph, calibração do sensor de umidade)>
+
 								<a name="calibraçao-ph"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Calibração sensor de ph" será direcionado a esta parte da página>
+
 								<div class="navegaçao"><h2>Sensor de pH</h2></div> <! Criando classe sensor de pH e título>
-									<p>ㅤㅤㅤPara realizar a calibração do sensor de pH é preciso de uma chave de fenda philips pequena e de um líquido que já é enviado junto com o dispositivo. Com essas duas coisas em mãos vamos aos passos:</p> <! Texto>
+
+									<p>ㅤㅤㅤPara realizar a calibração do sensor de pH é preciso de uma chave de fenda philips pequena e de um líquido de pH fixo, como leite (6), água (7) ou outra substância que possui a informação do seu pH. Com essas duas coisas em mãos vamos aos passos:</p> <! Texto>
+
 									<p>1 - Ative o modo de leitura de dados do pH no instrumento (Caso não saiba como navegar entre as telas do dispositivo volte para o tópico <a href="#navegaçao">Navegação entre telas).</a> </p> <! Texto sobre o manual de calibração do ph e referenciando a frase "Navegação entre telas" à um link interno (Ou seja ao clicar nessa frase voce será direcionado ao tópico do começo)>
+
 									<img src="tela-inicial-ph.png" class="imagem-manual"> <! Inserindo imagem do lcd na parte inicial e definindo o nome da classe da imagem>
+
 									<p>2 - O valor do pH deve aparecer constantemente na tela presente no aparelho</p> <! Texto> 
+
 									<img src="telaph.png" class="imagem-manual"> <! Inserindo imagem do lcd na parte do ph e definindo o nome da classe da imagem>
+
 									<p>3 - Com o líquido num recipiente coloque a sonda que detecta o valor do pH em contato com ele.</p> <! Texto>
+
 									<img src="contatoph.jpg" class="imagem-manual"> <! Inserindo imagem e definindo o nome da classe da imagem>
+
 									<p>4 - Com uma pequena chave Philips gire em sentido horário ou anti horário o potenciômetro presente no módulo da sonda (Imagem do potenciõmetro abaixo).</p> <! Texto>
+
 									<img src="potenciometro.jpg" class="imagem-manual"> <! Inserindo imagem do potenciômetro e definindo o nome da classe da imagem>
+
 									<p>5 - O valor do pH indicado na tela deve bater com o do líquido enviado previamente (Ph = 7,0).</p> <! Texto>
+
 									<img src="telaph7.png" class="imagem-manual"> <! Inserindo imagem do lcd na parte do ph e definindo o nome da classe da imagem>
+
 									<p>6 - Assim que o valor for encontrado tire a sonda do contato com o líquido, limpe-a  e o sensor já está calibrados</p> <! Texto>
+
 								<a name="calibraçao-umid"></a> <! Referenciando o item do índice, ou seja ao clicar no item "Calibração sensor de ph" será direcionado a esta parte da página>
+
 								<div class="navegaçao"><h2>Sensor de umidade</h2></div>
-									<p>ㅤㅤㅤPara realizar a calibração do sensor de umidade é preciso de uma chave de fenda philips pequena e de um copo de água. Com essas duas coisas em mãos vamos aos passos:</p>
+
+									<p>ㅤㅤㅤPara realizar a calibração do sensor de pH é preciso de uma chave de fenda philips pequena e de um líquido de pH fixo, como leite (6), água (7) ou outra substância que possui a informação do seu pH. Com essas duas coisas em mãos vamos aos passos:</p>
+
 									<p>1 - Ative o modo de leitura de dados do pH no instrumento (Caso não saiba como navegar entre as telas do dispositivo volte para o tópico <a href="#navegaçao">Navegação entre telas).</a> </p> <! Texto sobre o manual de calibração da umidade e referenciando a frase "Navegação entre telas" à um link interno (Ou seja ao clicar nessa frase voce será direcionado ao tópico do começo)>
+
 									<img src="tela-inicial-umid.png" class="imagem-manual"> <! Inserindo imagem do lcd na parte da inicial e definindo o nome da classe da imagem>
+
 									<p>2 - O valor de umidade do solo deve aparecer constantemente no tela presente no aparelho</p> <! Texto>
+
 									<img src="telaumid.png" class="imagem-manual"> <! Inserindo imagem do lcd na parte da umidade e definindo o nome da classe da imagem>
+
 									<p>3 - Com um copo de água nas mãos coloque a sonda que detecta o valor de umidade em contato com ele.</p> <! Texto>
+
 									<img src="contatoumid.jpg" class="imagem-manual"> <! Inserindo imagem e definindo o nome da classe da imagem>
+
 									<p>4 - Com uma pequena chave Philips gire em sentido horário ou anti horário o potenciômetro presente no módulo da sonda (Imagem do potenciõmetro abaixo).</p> <! Texto>
+
 									<img src="potenciometro-umid.jpg" class="imagem-manual"> <! Inserindo imagem do potenciômetro e definindo o nome da classe da imagem>
+
 									<p>5 - O valor de umidade indicado na tela deve ser - Umidade do solo = 100%.</p> <! Texto>
+
 									<img src="telaumid100.png" class="imagem-manual"> <! Inserindo imagem do lcd na parte da umidade e definindo o nome da classe da imagem>
+
 									<p>6 - Assim que o valor for encontrado tire a sonda do contato com a água, seque-a  e o sensor já está calibrados</p> <! Texto>
+
 								</div> <! Fechando classe>
-				</div> <! Fechando classe>				
+
+				</div> <! Fechando classe>	
+
 			</section> <! Fechando seção de calibração>
+
 		</main> <! Fechando tag principal>
 
 		<footer> <! Abrindo tag de rodapé>
+
 			</ul><img src="logo.jpeg" class="logo-rodape"> <! Inserindo imagem no rodapé>
+
 			<p class="copyright">&copy; Copyright Farm Bud - 2020</p> <! Texto>
+
 		</footer> <! Fechando rodapé>
+
 	</body> <! Fechando tag "corpo">
+
 </html> <! Fechando tag html>
